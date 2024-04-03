@@ -6,6 +6,7 @@ int main(int argc, char **argv)
 
     for (int i = 1; i < argc; i++)
     {
+        intArray[i - 1] = new int;
         *intArray[i - 1] = stoi(argv[i], 0, 10);
     }
 
